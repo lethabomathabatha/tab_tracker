@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Track</title>
+
+    <style>
+       body {
+            margin: 0;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            min-width: 400px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid darkcyan;
+            margin-bottom: 4px;
+            border-radius: 5px;
+        }
+
+        button {
+            background: darkcyan;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid darkcyan;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #delete-btn {
+            background: white;
+            color: darkcyan;
+        }
+
+        ul {
+            margin-top: 20px;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-top: 5px;
+        }
+
+        a {
+            color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="input-el">
+    <button id="input-btn">SAVE INPUT</button>
+    <button id="tab-btn">SAVE TAB</button>
+    <button id="delete-btn">DELETE ALL</button>
+    <ul id="ul-el">
+        <li>link 1 </li>
+        <li>www.link2.com</li>
+    </ul>
+    <script src="index.js"></script>
+</body>
+</html>
